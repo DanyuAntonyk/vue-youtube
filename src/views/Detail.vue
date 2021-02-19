@@ -2,7 +2,7 @@
     <div>
         <div>
             <div class="breadcrumb-wrap">
-                <a href="/history" class="breadcrumb">История</a>
+                <a href="./history" class="breadcrumb">История</a>
                 <a class="breadcrumb">
                     Расход
                 </a>

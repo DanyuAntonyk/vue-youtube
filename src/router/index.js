@@ -26,6 +26,12 @@ export default new Router({
             component: () => import('../views/Categories.vue')
         },
         {
+            path: '/register',
+            name: 'register',
+            meta: {layout: 'empty'},
+            component: () => import('../views/Register.vue')
+        },
+        {
             path: '/detail/:id',
             name: 'detail',
             meta: {layout: 'main'},
